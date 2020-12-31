@@ -17,7 +17,11 @@ begin{lstlisting}[language=kotlin]
 <--- add a table --->
 add column titles --> textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}
 add data in table rows --->
+
 1 & 1110.1 & a\\
+
 2 & 10.1 & b\\
+
 3 & 23.113231 & c\\
+
 
