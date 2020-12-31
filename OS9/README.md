@@ -1,5 +1,8 @@
 <--- add a photo --->
+
 includegraphics[width=10cm]{girl.jpg}
+
+
 
 
  <--- add a source code --->
@@ -9,6 +12,8 @@ begin{lstlisting}[language=kotlin]
  //source code
  
 \end{lstlisting}
+
+
 
 
 
@@ -22,12 +27,13 @@ begin{lstlisting}[language=kotlin]
 
 
 
+
+
 <--- add a table --->
 
 add column titles --> textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}
 
 add data in table rows --->
-
 
 1 & 1110.1 & a\\
 
