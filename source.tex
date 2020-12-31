@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+
+\title{OS9}
+\author{azin alizadeh }
+\date{December 2020}
+
+\begin{document}
+\title{Homework 9}
+\maketitle
+
+\section{First Section: Text}
+LaTeX is a high-quality typesetting system;\\
+it includes features designed for the production of technical and scientific documentation\\
+
+\section{Second Section: Image}
+  \includegraphics[width=10cm]{girl.jpg}
+  
+\section{Third Section: Code}
+\begin{lstlisting}[language=kotlin]
+fun bubbleSort(numbers: IntArray) {
+    for (pass in 0 until (numbers.size - 1)) {
+        // A single pass of bubble sort
+        for (currentPosition in 0 until (numbers.size - pass - 1)) {
+            // This is a single step
+            if (numbers[currentPosition] > numbers[currentPosition + 1]) {
+                val tmp = numbers[currentPosition]
+                numbers[currentPosition] = numbers[currentPosition + 1]
+                numbers[currentPosition + 1] = tmp
+            }
+        }
+    }
+}
+\end{lstlisting}
+ 
+\section{Fourth Section: Math formula}
+\begin{align*}
+  f(x) &= x^2\\
+  g(x) &= \frac{1}{x}\\
+  F(x) &= \int^a_b \frac{1}{3}x^3
+\end{align*}
+
+\section{Fifth Section: Table}
+\begin{table}[h!]
+  \begin{center}
+    \caption{Your first table.}
+    \label{tab:table1}
+    \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+      \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+      $\alpha$ & $\beta$ & $\gamma$ \\
+      \hline
+      1 & 1110.1 & a\\
+      2 & 10.1 & b\\
+      3 & 23.113231 & c\\
+    \end{tabular}
+  \end{center}
+\end{table}
+ 
+ 
+\end{document}
+
+
